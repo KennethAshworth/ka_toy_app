@@ -1,0 +1,7 @@
+<h1>Editing Micropost</h1>
+
+<%= @micropost.content %>
+<hr/>
+<%= render 'form', micropost: @micropost %>
+<%= link_to 'Show', @micropost %> |
+<%= link_to 'Back', microposts_path %>
